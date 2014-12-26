@@ -14,6 +14,7 @@
 		1A954B9D1A4B1C37000AAAD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A954B9C1A4B1C37000AAAD2 /* Images.xcassets */; };
 		1A954BA01A4B1C37000AAAD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A954B9E1A4B1C37000AAAD2 /* LaunchScreen.xib */; };
 		1A954BAC1A4B1C37000AAAD2 /* himatubushiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A954BAB1A4B1C37000AAAD2 /* himatubushiTests.m */; };
+		1A954BB61A4B1F0D000AAAD2 /* hidari.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A954BB51A4B1F0D000AAAD2 /* hidari.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1A954BA51A4B1C37000AAAD2 /* himatubushiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = himatubushiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A954BAA1A4B1C37000AAAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A954BAB1A4B1C37000AAAD2 /* himatubushiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = himatubushiTests.m; sourceTree = "<group>"; };
+		1A954BB51A4B1F0D000AAAD2 /* hidari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidari.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				1A954B961A4B1C37000AAAD2 /* ViewController.h */,
 				1A954B971A4B1C37000AAAD2 /* ViewController.m */,
 				1A954B991A4B1C37000AAAD2 /* Main.storyboard */,
+				1A954BB51A4B1F0D000AAAD2 /* hidari.png */,
 				1A954B9C1A4B1C37000AAAD2 /* Images.xcassets */,
 				1A954B9E1A4B1C37000AAAD2 /* LaunchScreen.xib */,
 				1A954B8F1A4B1C37000AAAD2 /* Supporting Files */,
@@ -201,6 +204,7 @@
 			files = (
 				1A954B9B1A4B1C37000AAAD2 /* Main.storyboard in Resources */,
 				1A954BA01A4B1C37000AAAD2 /* LaunchScreen.xib in Resources */,
+				1A954BB61A4B1F0D000AAAD2 /* hidari.png in Resources */,
 				1A954B9D1A4B1C37000AAAD2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

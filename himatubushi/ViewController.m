@@ -23,7 +23,7 @@
      enemythree=600;
     leftnum=0;
     count=4;
-    myhp=500;
+    myhp=400;
     choice=1;
     death = false;
     deathtwo=false;
@@ -224,7 +224,7 @@
     enemythree=600;
     leftnum=0;
     count=4;
-    myhp=500;
+    myhp=400;
     choice=1;
     death = false;
     deathtwo=false;

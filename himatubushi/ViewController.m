@@ -13,7 +13,6 @@
 @end
 
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -37,6 +36,24 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(IBAction)retry{
+    clearlabel.hidden=YES;
+    enemy=600;
+    enemytwo=600;
+    enemythree=600;
+    leftnum=0;
+    count=4;
+    myhp=400;
+    choice=1;
+    death = false;
+    deathtwo=false;
+    deaththree=false;
+    enemyhptwo.text=[NSString stringWithFormat:@"600"];
+    enemyhpthree.text=[NSString stringWithFormat:@"600"];
+    enemyhp.text=[NSString stringWithFormat:@"600"];
+    mypower.text=[NSString stringWithFormat:@"0"];
+    myhpLabel.text=[NSString stringWithFormat:@"%d",myhp];
 }
 -(IBAction)enemyone{
     choice=1;
@@ -96,11 +113,13 @@
              NSLog(@"count%d",count);
             }
          if(leftnum==3){
-            clearlabel.text=[NSString stringWithFormat:@"クリアー"];
              clearlabel.hidden=NO;
+            clearlabel.text=[NSString stringWithFormat:@"クリアー"];
+             
              
         }
             if (myhp<=0) {
+                clearlabel.hidden=NO;
                 clearlabel.text=[NSString stringWithFormat:@"ゲームオーバー"];
                 kogeki.hidden=YES;
                 tameru.hidden=YES;
@@ -170,9 +189,11 @@
             NSLog(@"count%d",count);
         }
         if(leftnum==3){
+            clearlabel.hidden=NO;
             clearlabel.text=[NSString stringWithFormat:@"クリアー"];
         }
         if (myhp<=0) {
+            clearlabel.hidden=NO;
             clearlabel.text=[NSString stringWithFormat:@"ゲームオーバー"];
             kogeki.hidden=YES;
             tameru.hidden=YES;
@@ -217,32 +238,5 @@
     }
 
 }
--(IBAction)retry{
-    clearlabel.hidden=YES;
-    enemy=600;
-    enemytwo=600;
-    enemythree=600;
-    leftnum=0;
-    count=4;
-    myhp=400;
-    choice=1;
-    death = false;
-    deathtwo=false;
-    deaththree=false;
-    enemyhptwo.text=[NSString stringWithFormat:@"600"];
-    enemyhpthree.text=[NSString stringWithFormat:@"600"];
-    enemyhp.text=[NSString stringWithFormat:@"600"];
-    mypower.text=[NSString stringWithFormat:@"0"];
-    myhpLabel.text=[NSString stringWithFormat:@"%d",myhp];
-}
-
-
-
-
-
-
-
-
-
 
 @end
